@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Display</title>
+    <style>
+        .product-box {
+            display: inline-block;
+            width: 250px;
+            border: 2px solid #ccc;
+            background-color: #f7f7f7;
+            padding: 15px;
+            margin: 15px;
+            text-align: center;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        .product-box img {
+            width: 120px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .product-box:hover {
+            outline: 3px solid #555;
+            outline-offset: 5px;
+        }
+
+        .product-name {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .price {
+            color: green;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            background: #007bff;
+            padding: 8px 12px;
+            border-radius: 5px;
+        }
+
+        a:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <h2 style="text-align: center;">Product Display Section</h2>
+
+    <!-- Product 1 -->
+    <div class="product-box">
+        <img src="https://via.placeholder.com/120" alt="Laptop">
+        <div class="product-name">Laptop</div>
+        <p>Powerful laptop for work & gaming.</p>
+        <div class="price">$799</div>
+        <a href="#">Buy Now</a>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product-box">
+        <img src="https://via.placeholder.com/120" alt="Headphones">
+        <div class="product-name">Headphones</div>
+        <p>Clear sound with noise cancellation.</p>
+        <div class="price">$199</div>
+        <a href="#">Buy Now</a>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product-box">
+        <img src="https://via.placeholder.com/120" alt="Smartwatch">
+        <div class="product-name">Smartwatch</div>
+        <p>Track fitness & get notifications.</p>
+        <div class="price">$149</div>
+        <a href="#">Buy Now</a>
+    </div>
+
+</body>
+</html>
